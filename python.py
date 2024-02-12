@@ -8,6 +8,6 @@ def lambda_handler(event, context):
            ImageId='ami-0e9107ed11be76fde',
            InstanceType='t2.micro',
            KeyName='docker',
-           MaxCount=1,
-           MinCount=1
+           MaxCount=2,
+           MinCount=2
            )
